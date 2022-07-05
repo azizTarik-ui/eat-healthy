@@ -82,3 +82,36 @@ h2{
 .box-recepie p{
     margin-left: 40px;
 }
+.social-media{
+    margin-top: 150px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 60px 60px;
+    border-radius: 20px;
+    margin: 60px 75px;
+    margin-bottom: 200px;
+}
+.social-media-container{
+    width: 33.3%;
+}
+footer{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+footer h2{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.span-1{
+    color:orange;
+}
+.span-2{
+    color: gray;
+    display: inline-block;
+    margin-left: 20px;
+}
