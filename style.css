@@ -6,6 +6,7 @@ body{
 }
 .order-section{
     margin-left: 50px;
+    margin-bottom: 150px;
 }
 h1{
     font-size: 35px;
@@ -20,7 +21,6 @@ section{
     width: 50%;
 }
 .order-image-area{
-    width: 50%;
     margin-left: 350px;
 }
 p{
@@ -32,7 +32,8 @@ p{
     background-image: url(Images/shapes/7.png);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    margin-bottom: 150px;
 }
 .order{
     text-decoration: none;
@@ -46,5 +47,38 @@ p{
     margin: 200px 100px 150px 150px;
 }
 .contact-image-area{
-    margin: 150px 100px 150px 200px;
+    margin: 1px 100px 150px 200px;
+    height: 120px;
+    width: 400px;
+}
+.recepies{
+    text-align: center;
+    display: inline;
+}
+.recepies-head{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.receipies-pic{
+    text-align: left;
+    display: flex;
+    margin: 10px 40px;
+}
+.recepies-icon{
+    width: 90%;
+    margin: 40px 40px;
+}
+.box-recepie{
+    margin: 40px 40px;
+    border: 60px 60px;
+    border-radius: 18px;
+    box-shadow: 10px 10px 40px gray;
+}
+h2{
+    font-weight: 700;
+    margin-left: 40px;
+}
+.box-recepie p{
+    margin-left: 40px;
 }
