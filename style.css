@@ -1,0 +1,34 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 35px;
+}
+span{
+    color:orange
+}
+.flexible-section{
+    display: flex;
+    
+}
+.text-area{
+    width: 80%;
+}
+.image-area{
+    width: 80%;
+}
+p{
+    color: gray;
+    margin-bottom: 44px;
+}
+.order{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
