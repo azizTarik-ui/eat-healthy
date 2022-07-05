@@ -2,6 +2,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin-top: 150px;
+    margin-left: 0;
+}
+.order-section{
     margin-left: 50px;
 }
 h1{
@@ -10,19 +13,26 @@ h1{
 span{
     color:orange
 }
-.flexible-section{
+section{
     display: flex;
-    
 }
-.text-area{
-    width: 80%;
+.order-text-area{
+    width: 50%;
 }
-.image-area{
-    width: 80%;
+.order-image-area{
+    width: 50%;
+    margin-left: 350px;
 }
 p{
     color: gray;
     margin-bottom: 44px;
+    font-weight: 700;
+}
+.contact-section{
+    background-image: url(Images/shapes/7.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .order{
     text-decoration: none;
@@ -31,4 +41,10 @@ p{
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 30px;
+}
+.contact-text-area{
+    margin: 200px 100px 150px 150px;
+}
+.contact-image-area{
+    margin: 150px 100px 150px 200px;
 }
